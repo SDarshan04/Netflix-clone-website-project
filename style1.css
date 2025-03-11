@@ -1,0 +1,149 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+}
+.nav{
+    background-color: rgba(0,0,0,0.1);
+    padding: 7px;
+}
+.nav h1{
+    display: inline;
+    color: white;
+    text-transform: uppercase;
+    color: rgba(252, 6, 6, 0.719);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    letter-spacing: 1px;
+}
+.nav ul{
+    display: inline;
+}
+.nav li{
+    display: inline;
+    color: white;
+    margin-left: 10px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(252, 6, 6, 0.719);
+}
+.nav input{
+    margin-left: 35%;
+    padding: 10px;
+    width: 20%;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+}
+.nav button.search{
+    margin-left: 25px;
+    padding: 8px;
+    width: 7%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.nav button.sign{
+    margin-left: 25px;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.nav button:hover{
+    background-color: rgba(252, 6, 6, 0.719);
+    color: white;
+}
+.content img{
+    display: inline;
+    width: auto;
+    margin-left: 20px;
+    background: rgba(0,0,0,0.1)
+}
+.content h1{
+    position: relative;
+    color: whitesmoke;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    margin-top: -12%;
+    margin-left: 30px;
+    background-color: rgba(0,0,0,0.4);
+}
+.content p{
+    color: white;
+    margin-left: 30px;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+}
+.list h1{
+    color: white;
+    margin-left: 30px;
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.list .box{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list img{
+    cursor: pointer;
+    transition: 400ms;
+}
+.list img:hover{
+    transform: scale(1.2);
+}
+.list .box2{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list2 h1{
+    color: white;
+    margin-left: 30px;
+    margin-top: 60px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.list2 .box3{
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.list2 img{
+    cursor: pointer;
+    transition: 200ms;
+}
+.list2 img:hover{
+    transform: scale(1.4);
+}
+.list2 hr{
+    color: rgb(105, 103, 103);
+    margin-top: 40px;
+}
+.footer button{
+    text-align: center;
+    margin-left: 45%;
+    margin-top: 50px;
+    padding: 20px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.footer button:hover{
+    background-color: rgba(252, 6, 6, 0.719);
+    color: white;
+}
